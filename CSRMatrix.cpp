@@ -32,7 +32,10 @@ CSRMatrix<T>::CSRMatrix(int rows, int cols, int nnzs, T *values_ptr, int *row_po
 
 // Copy constructor
 template <class T>
-CSRMatrix<T>::CSRMatrix(const CSRMatrix& a): Matrix<T>(a);
+CSRMatrix<T>::CSRMatrix(const CSRMatrix& a): Matrix<T>(a)
+{
+    
+}
 
 
 // destructor

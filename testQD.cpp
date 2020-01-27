@@ -51,7 +51,10 @@ int main()
     delete[] m_values;
     delete[] m_coldata;
     delete[] m_rowdata;
-
+    
+    //use copy constructor
+    CSRMatrix<int> m2(m1);
+    
     system("pause");
 
 }

@@ -35,7 +35,7 @@ public:
 
    // Explicitly using the C++11 nullptr here
    int *row_position = nullptr;
-   int *col_index = nullptr;
+    int *col_index = nullptr;
 
    // How many non-zero entries we have in the matrix
    int nnzs=-1;
